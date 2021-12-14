@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+    <h2>Budget</h2>
+<div id="contenu">
+    <div id="depenses">
+        <label>Loyer : <input id="loyer" type="number"></label>
+        <label>Crédit : <input id="crédit" type="number"></label>
+        <label>Factures : <input id="eau" type="number"></label>
+        <label>Internet : <input id="internet" type="number"> </label>
+       <button id="total-depenses">Total : </button>
+        <p id="totalcharge"></p>
+    </div>
+
+    <div id="recettes">
+        <label>Salaire : <input id="salaire" type="number"></label>
+        <label>Aides : <input id="aides" type="number"></label>
+        <label>Rentes : <input id="rentes" type="number"></label>
+        <label>Autres : <input id="autres" type="number"></label>
+       <button id="total-recettes">Total : </button>
+
+    </div>
+
+    <div id="epargne">
+        <label>Epargne : <input id="epargnee" type="number"></label>
+    </div>
+
+    <div id="résultat"></div>
+</div>
+<button id="reset">Redémarrer</button>
+
+<script src="app.js"></script>
+</body>
+</html>

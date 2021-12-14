@@ -1,0 +1,37 @@
+body{
+    box-sizing: border-box;
+}
+
+#depenses{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+}
+
+#recettes{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    margin-left: 35%;
+    margin-top: -7%;
+}
+
+#epargne{
+    display: flex;
+    flex-direction: column;
+    margin-left: 60%;
+    margin-top: -5%;
+}
+
+#contenu2{
+    margin-top: -11%;
+}
+
+#total-depenses{
+    width: 100px;
+    text-align: left;
+}
+#total-recettes{
+    width: 100px;
+    text-align: left;
+}
