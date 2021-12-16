@@ -7,14 +7,16 @@
     <link rel="stylesheet" href="css.css">
 </head>
 <body>
-    <h2>Budget</h2>
+<h2>Budget</h2>
+
 <div id="contenu">
+
     <div id="depenses">
         <label>Loyer : <input id="loyer" type="number"></label>
         <label>Crédit : <input id="crédit" type="number"></label>
         <label>Factures : <input id="eau" type="number"></label>
         <label>Internet : <input id="internet" type="number"> </label>
-       <button id="total-depenses">Total : </button>
+        <button id="total-depenses">Total</button>
         <p id="totalcharge"></p>
     </div>
 
@@ -23,16 +25,16 @@
         <label>Aides : <input id="aides" type="number"></label>
         <label>Rentes : <input id="rentes" type="number"></label>
         <label>Autres : <input id="autres" type="number"></label>
-       <button id="total-recettes">Total : </button>
-
+        <button id="total-recettes">Total</button>
+        <p id="totalrecettes"></p>
     </div>
 
-    <div id="epargne">
-        <label>Epargne : <input id="epargnee" type="number"></label>
+    <div id="résultat">
+        <button id="total-budget">Votre budget</button>
+        <p id="conseilsbudget"></p>
     </div>
-
-    <div id="résultat"></div>
 </div>
+
 <button id="reset">Redémarrer</button>
 
 <script src="app.js"></script>
