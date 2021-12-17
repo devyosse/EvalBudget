@@ -36,22 +36,20 @@ function CalcRecettes() {
         + Number.parseInt(autres.value)
 }
 
-function CalcBudget(){
-  let r = Number.parseInt(resultatrecettes.innerHTML) - Number.parseInt(resultatcharges.innerHTML);
-   if (r > 0){
-       Conseilsbudget.innerHTML = "Vous possèdez un bénéfice budget positif";
-   }
-   if(r < 0){
+function CalcBudget() {
+    let r = Number.parseInt(resultatrecettes.innerHTML) - Number.parseInt(resultatcharges.innerHTML);
+    if (r > 0) {
+        Conseilsbudget.innerHTML = "Vous possèdez un bénéfice budget positif";
+    }
+    if (r < 0) {
         Conseilsbudget.innerHTML = "Vous êtes en négatif perte confirmer";
-   }
-   if (r === 0){
-       Conseilsbudget.innerHTML = "Ni perte ni gain";
-   }
+    }
+    if (r === 0) {
+        Conseilsbudget.innerHTML = "Ni perte ni gain";
+    }
 }
 
-
-
-buttonBudget.addEventListener("click", function (){
+buttonBudget.addEventListener("click", function () {
     CalcBudget();
 })
 
